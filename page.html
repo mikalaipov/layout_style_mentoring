@@ -10,42 +10,44 @@
 
 <body>
     <header>
-        <div class="header_label">
-            <p>M
-                <p>a
-                    <p>g
-                        <p>B
-                            <p>l
-                                <p>o
-                                    <p>g
-        </div>
-        <div class="header_search">
+        <h1 class="header-label">
+            <span>M</span>
+            <span>a</span>
+            <span>g</span>
+            <span>B</span>
+            <span>l</span>
+            <span>o</span>
+            <span>g</span>
+        </h1>
+        <div class="header-search">
             <input>
             <button>search</button>
         </div>
-        <div class="header_social_media">
-            <img src="./src/mrss_icon.png" alt="link to mrss">
-            <img src="./src/fb_icon.png" alt="link to facebook">
-            <img src="./src/tw_icon.png" alt="link to twitter">
+        <div class="header-social-media">
+            <img src="./src/mrss-icon.png" alt="link to mrss">
+            <img src="./src/fb-icon.png" alt="link to facebook">
+            <img src="./src/tw-icon.png" alt="link to twitter">
         </div>
-        <div class="header_menu">
-            <div id="header_menu_home">home</div>
-            <div id="header_menu_cinema">cinema</div>
-            <div id="header_menu_magazine">magazine</div>
-            <div id="header_menu_cssauthor">cssauthor.com</div>
-            <div id="header_menu_topmenu">topmenu</div>
-            <div id="header_menu_archives">archives</div>
-            <div id="header_menu_contactus">contact us</div>
-        </div>
+        <nav>
+            <ul class="header-menu">
+                <li class="header-menu-home">home</li>
+                <li class="header-menu-cinema">cinema</li>
+                <li class="header-menu-magazine">magazine</li>
+                <li class="header-menu-cssauthor">cssauthor.com</li>
+                <li class="header-menu-topmenu">topmenu</li>
+                <li class="header-menu-archives">archives</li>
+                <li class="header-menu-contactus">contact us</li>
+            </ul>
+        </nav>
     </header>
     <main>
         <article>
-            <div class="article_item">
-                <div class="article_date">
-                    <div class="arcticle_date_number">28</div>
-                    <div class="arcticle_date_month">feb</div>
+            <section class="article-item">
+                <div class="article-date">
+                    <div class="arcticle-date-number">28</div>
+                    <div class="arcticle-date-month">feb</div>
                 </div>
-                <h1>Lorem Ipsum is simply dummy text of the printing</h1>
+                <h2>Lorem Ipsum is simply dummy text of the printing</h2>
                 <p>
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                     industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
@@ -53,12 +55,16 @@
                     leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
                     with the release of Letraset sheets containing
                 </p>
-                <div class="article_image_block">
-                    <div class="image_block_main"></div>
-                    <div class="image_block_small"></div>
-                    <div class="image_block_small"></div>
-                    <div class="image_block_small"></div>
-                    <div class="image_block_small"></div>
+                <div class="article-image-block">
+                    <img class="image-block-main" src="./src/article-1st-image-big.png" alt="Main image of image block">
+                    <img class="image-block-small" src="./src/article-2nd-image-small.png"
+                        alt="First small image of image bloc">
+                    <img class="image-block-small" src="./src/article-3rd-image-small.png"
+                        alt="Second small image of image bloc">
+                    <img class="image-block-small" src="./src/article-4th-image-small.png"
+                        alt="Third small image of image bloc">
+                    <img class="image-block-small" src="./src/article-5th-image-small.png"
+                        alt="Forh small image of image bloc">
                 </div>
                 <p>
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
@@ -69,331 +75,320 @@
                     publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply
                     dummy text of the printing and typesetting industry.
                 </p>
-            </div>
-            <div class="related_articles">
-                <h2>
+            </section>
+            <section class="related-articles">
+                <h3>
                     related arcticles
-                </h2>
-                <div class="related_articles_items_container">
-                    <div class="related_articles_item">
-                        <h3>
+                </h3>
+                <ul class="related-articles-items-container">
+                    <li class="related-articles-item">
+                        <h4>
                             Lorem Ipsum is simply dummy text
-                        </h3>
-                    </div>
-                    <div class="related_articles_item">
-                        <h3>
+                        </h4>
+                    </li>
+                    <li class="related-articles-item">
+                        <h4>
                             Lorem Ipsum is simply dummy text
-                        </h3>
-                    </div>
-                    <div class="related_articles_item">
-                        <h3>
+                        </h4>
+                    </li>
+                    <li class="related-articles-item">
+                        <h4>
                             printing and typesetting industry
-                        </h3>
-                    </div>
-                    <div class="related_articles_item">
-                        <h3>
+                        </h4>
+                    </li>
+                    <li class="related-articles-item">
+                        <h4>
                             printing and typesetting industry
-                        </h3>
-                    </div>
-                    <div class="related_articles_item">
-                        <h3>
+                        </h4>
+                    </li>
+                    <li class="related-articles-item">
+                        <h4>
                             Lorem Ipsum has been the industry's
-                        </h3>
-                    </div>
-                    <div class="related_articles_item">
-                        <h3>
+                        </h4>
+                    </li>
+                    <li class="related-articles-item">
+                        <h4>
                             Lorem Ipsum has been the industry's
-                        </h3>
-                    </div>
-                    <div class="related_articles_item">
-                        <h3>
+                        </h4>
+                    </li>
+                    <li class="related-articles-item">
+                        <h4>
                             standard dummy text ever since
-                        </h3>
-                    </div>
-                    <div class="related_articles_item">
-                        <h3>
+                        </h4>
+                    </li>
+                    <li class="related-articles-item">
+                        <h4>
                             standard dummy text ever since
-                        </h3>
-                    </div>
-                    <div class="related_articles_item">
-                        <h3>
+                        </h4>
+                    </li>
+                    <li class="related-articles-item">
+                        <h4>
                             Lorem Ipsum has been the industry's
-                        </h3>
-                    </div>
-                </div>
-            </div>
-            <div class="write_comment">
-                <h2>
+                        </h4>
+                    </li>
+                </ul>
+            </section>
+            <section class="write-comment">
+                <h3>
                     write comment
-                </h2>
-                <div class="write_comment_items_container">
-                    <div class="write_comment_item">
-                        <p>
-                            Name :
-                        </p>
-                        <input class="comment_name_input">
-                    </div>
-                    <div class="write_comment_item">
-                        <p>
-                            email :
-                        </p>
-                        <input class="comment_email_input">
-                    </div>
-                    <div class="write_comment_item">
-                        <p>
-                            Website :
-                        </p>
-                        <input class="comment_website_input">
-                    </div>
-                    <div class="write_comment_item">
-                        <p>
-                            Comment :
-                        </p>
-                        <textarea rows="5" class="comment_comment_input"></textarea>
-                    </div>
-                </div>
-                <button>Post comment</button>
-            </div>
-            <div class="comments">
-                <h2>
+                </h3>
+                <form action="/awesome-backend-script.php" name="commentForm" method="post">
+                    <ul class="write-comment-items-container">
+                        <li class="write-comment-item">
+                            <label>Name :</label>
+                            <input id="nameInfo" name="nameInfo" type="text" class="comment-name-input">
+                        </li>
+                        <li class="write-comment-item">
+                            <label>email :</label>
+                            <input id="emailInfo" name="emailInfo" type="text" class="comment-email-input">
+                        </li>
+                        <li class="write-comment-item">
+                            <label>Website :</label>
+                            <input id="websiteInfo" name="websiteInfo" type="text" class="comment-website-input">
+                        </li>
+                        <li class="write-comment-item">
+                            <label>Comment :</label>
+                            <textarea id="commentText" name="commentText" rows="5"
+                                class="comment-comment-input"></textarea>
+                        </li>
+                    </ul>
+                    <input type="submit" value="Post comment">
+                </form>
+            </section>
+            <section class="comments">
+                <h3>
                     comments (3)
-                </h2>
-                <div class="comment_items_container">
-                    <div class="comment_item">
-                        <img src="./src/comment-avatar.png" alt="comment_person_picture">
-                        <div class="comment_body">
+                </h3>
+                <ul class="comment-items-container">
+                    <li class="comment-item">
+                        <img src="./src/comment-avatar.png" alt="comment person picture">
+                        <div class="comment-body">
 
-                            <h3>Bitch on the broom</h3>
-                            <time>05/03/2012 at 13:58</time>
-                            <div class="comment_main">
+                            <h4>Bitch on the broom</h4>
+                            <time datetime="2012-03-05">05/03/2012 at 13:58</time>
+                            <div class="comment-main">
                                 <p>
                                     Remaining essentially unchanged. It was popularised in the 1960s with the release of
                                     Letraset sheets containing
                                 </p>
-                                <div class="comment_bottom">
-                                    <div class="comment_separator"></div>
-                                    <div class="comment_reply">Reply</div>
+                                <div class="comment-bottom">
+                                    <div class="comment-separator"></div>
+                                    <div class="comment-reply">Reply</div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="comment_item">
-                        <img src="./src/comment-avatar.png" alt="comment_person_picture">
-                        <div class="comment_body">
+                    </li>
+                    <li class="comment-item">
+                        <img src="./src/comment-avatar.png" alt="comment person picture">
+                        <div class="comment-body">
 
-                            <h3>Bitch on the broom</h3>
-                            <time>05/03/2012 at 13:58</time>
-                            <div class="comment_main">
+                            <h4>Bitch on the broom</h4>
+                            <time datetime="2012-03-05">05/03/2012 at 13:58</time>
+                            <div class="comment-main">
                                 <p>
                                     Remaining essentially unchanged. It was popularised in the 1960s with the release of
                                     Letraset sheets containing
                                 </p>
-                                <div class="comment_bottom">
-                                    <div class="comment_separator"></div>
-                                    <div class="comment_reply">Reply</div>
+                                <div class="comment-bottom">
+                                    <div class="comment-separator"></div>
+                                    <div class="comment-reply">Reply</div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="comment_item">
-                        <img src="./src/comment-avatar.png" alt="comment_person_picture">
-                        <div class="comment_body">
+                    </li>
+                    <li class="comment-item">
+                        <img src="./src/comment-avatar.png" alt="comment person picture">
+                        <div class="comment-body">
 
-                            <h3>Bitch on the broom</h3>
-                            <time>05/03/2012 at 13:58</time>
-                            <div class="comment_main">
+                            <h4>Bitch on the broom</h4>
+                            <time datetime="2012-03-05">05/03/2012 at 13:58</time>
+                            <div class="comment-main">
                                 <p>
                                     Remaining essentially unchanged. It was popularised in the 1960s with the release of
                                     Letraset sheets containing
                                 </p>
-                                <div class="comment_bottom">
-                                    <div class="comment_separator"></div>
-                                    <div class="comment_reply">Reply</div>
+                                <div class="comment-bottom">
+                                    <div class="comment-separator"></div>
+                                    <div class="comment-reply">Reply</div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
+                    </li>
+                </ul>
+            </section>
         </article>
         <aside>
-            <div class="aside_top_stories">
-                <h2>top stories</h2>
-                <div class="top_stories_header">
-                    <div id="top_stories_fashion">fashion</div>
-                    <div id="top_stories_cinema">cinema</div>
-                    <div id="top_stories_television">television</div>
-                </div>
-                <div class="top_stories_items">
-                    <div class="top_stories_item">
-                        <img src="./src/top_stories_cover.png" alt="top stories item image">
-                        <div class="top_stories_body">
-                            <h3>
+            <section class="aside-top-stories">
+                <h3>top stories</h3>
+                <ul class="top-stories-header">
+                    <li class="top-stories-fashion">fashion</li>
+                    <li class="top-stories-cinema">cinema</li>
+                    <li class="top-stories-television">television</li>
+                </ul>
+                <ul class="top-stories-items">
+                    <li class="top-stories-item">
+                        <img src="./src/top-stories-cover.png" alt="top stories item image">
+                        <div class="top-stories-body">
+                            <h4>
                                 Lorem Ipsum is simply dummy
                                 text of the printing
-                            </h3>
+                            </h4>
                             <p>
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
                                 has
                                 been the industry's
                             </p>
                         </div>
-                    </div>
-                    <div class="top_stories_item">
-                        <img src="./src/top_stories_cover.png" alt="top stories item image">
-                        <div class="top_stories_body">
-                            <h3>
+                    </li>
+                    <li class="top-stories-item">
+                        <img src="./src/top-stories-cover.png" alt="top stories item image">
+                        <div class="top-stories-body">
+                            <h4>
                                 Lorem Ipsum is simply dummy
                                 text of the printing
-                            </h3>
+                            </h4>
                             <p>
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
                                 has
                                 been the industry's
                             </p>
                         </div>
-                    </div>
-                    <div class="top_stories_item">
-                        <img src="./src/top_stories_cover.png" alt="top stories item image">
-                        <div class="top_stories_body">
-                            <h3>
+                    </li>
+                    <li class="top-stories-item">
+                        <img src="./src/top-stories-cover.png" alt="top stories item image">
+                        <div class="top-stories-body">
+                            <h4>
                                 Lorem Ipsum is simply dummy
                                 text of the printing
-                            </h3>
+                            </h4>
                             <p>
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
                                 has
                                 been the industry's
                             </p>
                         </div>
-                    </div>
-                </div>
-            </div>
-            <div class="aside_ymalike">
-                <h2>you might also like</h2>
-                <div class="ymalike_items">
-                    <div class="ymalike_item">
-                        <img src="./src/ymal_cover.png" alt="ymalike item image">
-                        <div class="ymalike_item_body">
+                    </li>
+                </ul>
+            </section>
+            <section class="aside-ymalike">
+                <h3>you might also like</h3>
+                <ul class="ymalike-items">
+                    <li class="ymalike-item">
+                        <img src="./src/ymal-cover.png" alt="ymalike item image">
+                        <div class="ymalike-item-body">
                             <p>
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                             </p>
-                            <div class="ymalike_medication">Medication &#187;</div>
+                            <div class="ymalike-medication">Medication </div>
                         </div>
-                    </div>
-                    <div class="ymalike_item">
-                        <img src="./src/ymal_cover.png" alt="ymalike item image">
-                        <div class="ymalike_item_body">
+                    </li>
+                    <li class="ymalike-item">
+                        <img src="./src/ymal-cover.png" alt="ymalike item image">
+                        <div class="ymalike-item-body">
                             <p>
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                             </p>
-                            <div class="ymalike_medication">Medication &#187;</div>
+                            <div class="ymalike-medication">Medication </div>
                         </div>
-                    </div>
-                    <div class="ymalike_item">
-                        <img src="./src/ymal_cover.png" alt="ymalike item image">
-                        <div class="ymalike_item_body">
+                    </li>
+                    <li class="ymalike-item">
+                        <img src="./src/ymal-cover.png" alt="ymalike item image">
+                        <div class="ymalike-item-body">
                             <p>
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                             </p>
-                            <div class="ymalike_medication">Medication &#187;</div>
+                            <div class="ymalike-medication">Medication </div>
                         </div>
-                    </div>
-                    <div class="ymalike_item">
-                        <img src="./src/ymal_cover.png" alt="ymalike item image">
-                        <div class="ymalike_item_body">
+                    </li>
+                    <li class="ymalike-item">
+                        <img src="./src/ymal-cover.png" alt="ymalike item image">
+                        <div class="ymalike-item-body">
                             <p>
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                             </p>
-                            <div class="ymalike_medication">Medication &#187;</div>
+                            <div class="ymalike-medication">Medication </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-            <div class="aside_archives">
-                <h2>archives</h2>
-                <div class="aside_archives_items_container">
-                    <div class="aside_archives_item">Lorem Ipsum is simply dummy text of the printing and
-                        typesetting
-                        industry. </div>
-                    <div class="aside_archives_item">Lorem Ipsum has been the industry's standard dummy text ever
-                        since
-                        the 1500s</div>
-                    <div class="aside_archives_item">When an unknown printer took a galley of type and scrambled it
-                        to
-                        make a type specimen book. </div>
-                    <div class="aside_archives_item">It has survived not only five centuries, but also the leap into
-                        electronic typesetting</div>
-                    <div class="aside_archives_item">Remaining essentially unchanged. It was popularised in the
-                        1960s
-                        with the release of </div>
-                    <div class="aside_archives_item">Letraset sheets containing Lorem Ipsum passages, and more
-                        recently
-                        with desktop publishing </div>
-                    <div class="aside_archives_item">Software like Aldus PageMaker including versions of Lorem
-                        Ipsum.
-                    </div>
-                </div>
-            </div>
-            <div class="aside_tag_cloud">
-                <h2>tag cloud</h2>
-                <div class="tag_cloud_body">
-                    <p> Angelina Jolie </p>
-                    <p> <b>Cssauthor</b> </p>
-                    <p> Aristokrasi Beyoncé Blake </p>
-                    <p> Lively </p>
-                    <p> Brad Pitt </p>
-                    <p> Cameron Diaz </p>
-                    <p> Daniel Radcliffe </p>
-                    <p> David Beckham </p>
-                    <p> Demi Moore </p>
-                    <p> Emma Watson </p>
-                    <p> Eva Longoria </p>
-                    <p> Gisele Bundchen </p>
-                    <p> Gwyneth Paltrow</p>
-                    <p> Halle Berry </p>
-                    <p> Harry Potter </p>
-                    <p> Heidi Klum </p>
-                    <p> James Franco </p>
-                    <p> Jennifer <b>Lopez Jessica</b> Alba </p>
-                    <p> Johnny Depp </p>
-                    <p> Jon Hamm</p>
-                    <p> Jude Law </p>
-                    <p> Kate Moss </p>
-                    <p> Kate Winslet </p>
-                    <p> Katie Holmes </p>
-                    <p> Katy Perry </p>
-                    <p> Kim Kardashian </p>
-                    <p> Kristen Stewart </p>
-                    <p> Lady Gaga</p>
-                    <p> Madonna </p>
-                    <p> Megan Fox </p>
-                    <p> Michelle Williams </p>
-                    <p> Natalie Portman </p>
-                    <p> Nicole Kidman </p>
-                    <p> Penelope Cruz </p>
-                    <p> Reese</p>
-                    <p> Witherspoon Reklam </p>
-                    <p> <b>Rihanna</b> </p>
-                    <p> Robert Pattin Son</p>
-                    <p> Sarah Jessica </p>
-                    <p>Parker Scar </p>
-                </div>
-            </div>
+                    </li>
+                </ul>
+            </section>
+            <section class="aside-archives">
+                <h3>archives</h3>
+                <ul class="aside-archives-items-container">
+                    <li class="aside-archives-item">Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry. </li>
+                    <li class="aside-archives-item">Lorem Ipsum has been the industry's standard dummy text ever since
+                        the 1500s </li>
+                    <li class="aside-archives-item">When an unknown printer took a galley of type and scrambled it to
+                        make a type specimen book. </li>
+                    <li class="aside-archives-item">It has survived not only five centuries, but also the leap into
+                        electronic typesetting </li>
+                    <li class="aside-archives-item">Remaining essentially unchanged. It was popularised in the 1960s
+                        with the release </li>
+                    <li class="aside-archives-item">Letraset sheets containing Lorem Ipsum passages, and more recently
+                        with desktop publishing </li>
+                    <li class="aside-archives-item">Software like Aldus PageMaker including versions of Lorem Ipsum.
+                    </li>
+                </ul>
+            </section>
+            <section class="aside-tag-cloud">
+                <h3>tag cloud</h3>
+                <ul class="tag-cloud-body">
+                    <li> Angelina Jolie </li>
+                    <li> <b>Cssauthor</b> </li>
+                    <li> Aristokrasi Beyoncé Blake </li>
+                    <li> Lively </li>
+                    <li> Brad Pitt </li>
+                    <li> Cameron Diaz </li>
+                    <li> Daniel Radcliffe </li>
+                    <li> David Beckham </li>
+                    <li> Demi Moore </li>
+                    <li> Emma Watson </li>
+                    <li> Eva Longoria </li>
+                    <li> Gisele Bundchen </li>
+                    <li> Gwyneth Paltrow</li>
+                    <li> Halle Berry </li>
+                    <li> Harry Potter </li>
+                    <li> Heidi Klum </li>
+                    <li> James Franco </li>
+                    <li> Jennifer <b>Lopez Jessica</b> Alba </li>
+                    <li> Johnny Depp </li>
+                    <li> Jon Hamm</li>
+                    <li> Jude Law </li>
+                    <li> Kate Moss </li>
+                    <li> Kate Winslet </li>
+                    <li> Katie Holmes </li>
+                    <li> Katy Perry </li>
+                    <li> Kim Kardashian </li>
+                    <li> Kristen Stewart </li>
+                    <li> Lady Gaga</li>
+                    <li> Madonna </li>
+                    <li> Megan Fox </li>
+                    <li> Michelle Williams </li>
+                    <li> Natalie Portman </li>
+                    <li> Nicole Kidman </li>
+                    <li> Penelope Cruz </li>
+                    <li> Reese</li>
+                    <li> Witherspoon Reklam </li>
+                    <li> <b>Rihanna</b> </li>
+                    <li> Robert Pattin Son</li>
+                    <li> Sarah Jessica </li>
+                    <li>Parker Scar </li>
+                </ul>
+            </section>
         </aside>
         <!-- 
-            <div class="background_rainbow"></div>
+            <div class="background-rainbow"></div>
             
-            <div class="main_right_rainbow"></div>
+            <div class="main-right-rainbow"></div>
             
-            <div class="main_right_rainbow"></div>
+            <div class="main-right-rainbow"></div>
             
-            <div class="main_right_rainbow"></div>
+            <div class="main-right-rainbow"></div>
          -->
     </main>
     <footer>
-        <div class="footer_rainbow"></div>
-        <div class="footer_label">Designed by Cssauthor.com</div>
+        <div class="footer-rainbow"></div>
+        <div class="footer-label">Designed by <a href="http:\\Cssauthor.com">Cssauthor.com</a></div>
     </footer>
 </body>
 
